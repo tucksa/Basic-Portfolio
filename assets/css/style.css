@@ -1,6 +1,8 @@
 header {
     background-color:white;
     margin: 0px;
+    border: solid #cccccc; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .clearfix::after {
     content: "";
@@ -24,11 +26,12 @@ h1 {
     color: white;
     font-size: 40px;
     font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 button {
     border:none;
     background:none;
-    border-right: solid #eee;
+    border-right: solid #cccccc;
     padding:5px;
     text-align: center;
     width: 33.3%;
@@ -52,11 +55,11 @@ section{
     padding: 25px;
     margin: 50px 200px 100px 200px;
     overflow: auto;
+    border: solid #dddddd;
 }
 footer {
-    text-align: center;
     background: #3f3f3f;
-    border-top: solid thick #13a089;
+    border-top: solid 8px #13a089;
     height: 30px;
     margin: 0px;
     position: fixed;
@@ -66,21 +69,24 @@ footer {
 }
 h2 {
     color: #13a089;
-    border-bottom: solid #eee;
+    border-bottom: solid #dddddd;
     padding:20px 0px;
     font-size: 30px;
     font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 .pic {
     float:left;
-    border: solid black;
-    margin: 15px 15px 0px 0px;
+    margin: 25px 25px 10px 0px;
+    height: 200px;
+    width: 200px; 
 }
 p {
     font-size: 18px;
-    text-align: justify;
     padding: 10px;
     line-height: 150%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 15px;
 }
 .form {
     margin: 15px 0px;
@@ -110,6 +116,8 @@ input {
     float: left;
     margin-top: 50px;
     margin-right: 30px;
+    height: 200px;
+    width: 300px;
 }
 .port-btn {
     position: absolute;
@@ -119,4 +127,11 @@ input {
     width: 100%;
     height: 25%;
     border: none;
+}
+.copyright {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: lightgray;
+    font-size: 10px;
+    text-align: center;
+    margin-top:5px;
 }
