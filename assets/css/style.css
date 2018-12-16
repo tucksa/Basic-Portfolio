@@ -137,8 +137,3 @@ input {
     text-align: center;
     margin-top:5px;
 }
-@media (max-width: 576px) {
-    * {
-        display:block;
-    }
-}
