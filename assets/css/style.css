@@ -82,6 +82,7 @@ h2 {
     margin: 25px 25px 10px 0px;
     height: 200px;
     width: 200px; 
+    border:3px solid #13a089;
 }
 p {
     font-size: 18px;
@@ -100,6 +101,7 @@ p {
     color: white;
     font-size: 15px;
     width:15%;
+    padding:1%;
 }
 input {
     margin: 10px 0px;
@@ -120,13 +122,14 @@ input {
     margin-right: 30px;
     height: 200px;
     width: 300px;
+    border: 5px solid #13a089;
 }
 .port-btn {
     position: absolute;
     left: 0px;
     bottom: 15px;
     background-color: #13a089;
-    width: 100%;
+    width: 97%;
     height: 25%;
     border: none;
 }
@@ -136,4 +139,9 @@ input {
     font-size: 10px;
     text-align: center;
     margin-top:5px;
+}
+@media (max-width: 576px) {
+    * {
+        display: block;
+    }
 }
